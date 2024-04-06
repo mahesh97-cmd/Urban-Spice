@@ -1,0 +1,26 @@
+.active{
+    color:rgb(240, 28, 28);
+    text-decoration:underline;
+    font-weight:bold;    
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 22px !important;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(4, 4, 4) !important;
+}
+.slick-prev:before{
+    content: '❮' !important;
+    font-size: 40px !important;
+    font-family: 'Font Awesome 5 Free';
+}
+.slick-next:before{
+    content: '❯' !important;
+    font-size: 40px !important;
+    font-family: 'Font Awesome 5 Free';
+}
+.slider-slick>div>.slick-next:before, .slider-slick>div>.slick-prev:before{
+    content: none !important;
+}
